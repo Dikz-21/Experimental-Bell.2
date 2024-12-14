@@ -22,7 +22,6 @@ infos.wrongFormat = "*❗Format salah, silahkan periksa kembali*"
 infos.successDelBadword = `Berhasil menghapus <input> kedalam list badword!`
 infos.successSetThumb = "Berhasil mengganti thumbnail menu!"
 infos.successAddBadword = `Berhasil menambahkan <input> kedalam list badword!`
-
 infos.isModeOn = `Maaf, <mode> sudah dalam mode on!`
 infos.isModeOff = `Maaf, <mode> sudah dalam mode off!`
 
@@ -56,6 +55,7 @@ infos.set = `
 - lang <Country Code>
 - voice <modelname>
 - menu <type>
+- call <off or action>
 
 _Example: .set public on_`
 
@@ -113,6 +113,21 @@ Example:
 \`Semoga panduan ini dibaca dengan teiti agar tidak lagi menanyakan kepada admin terkait cara penggunaanya, terimakasih\`
 `
 
+infos.setCall = `
+\`Cara Penggunaan:\`
+ ▪︎ .set call <off or action>
+- Contoh: .set call reject
+
+_Anda juga bisa menambahkan action lain dengan cara memberi tanda *+*_
+
+Contoh: .set call reject+block
+
+\`LIST ACTION\`
+- reject (menolak panggilan)
+- block (memblokir pemanggil)
+`
+infos.successSetCall = "Berhasil mengatur anti call!\nAction: <action>"
+infos.successOffCall = "Berhasil menonaktifkan anti call!"
 
 infos.setFquoted = `
 \`Contoh penggunaan:\`
